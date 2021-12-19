@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Merriweather:wght@300;400&display=swap');
+.content{
+	text-align: center;
+	margin-right: 30%;
+	margin-left: 35%;
+	margin-top: 25%;
+	color: white;
+}
+body{
+	background-image: url('p1.gif');
+	/* background-size: max(40%); */
+	background-repeat: no-repeat;
+	background-color: #f14c8f;
+	  background-attachment: fixed;
+  background-position: center top;
+  font-family: 'Merriweather', serif;
+}
+
+.heading{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.lightyellow{
+	color: #f9db7b;
+}
+
+html{
+	height: 100%;
+}
+#winner{
+/* font-size: 5em;
+            font-family: serif; */
+            color: lightyellow;
+            text-align: center;
+            animation: animate 
+                1.5s linear infinite;
+}
+@keyframes animate {
+            0% {
+                opacity: 0;
+            }
+  
+            50% {
+                opacity: 0.7;
+            }
+  
+            100% {
+                opacity: 0;
+            }
+        }
